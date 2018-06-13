@@ -3,7 +3,9 @@ New image parameter for WPBakery pagebuilder with focus point
 
 ## How to use:
 
-When creating a custom module ffor WKBakery Page Builder, instead of using ```attached_image``` as param type, use ```focus_image```.
+First make sure that the plugin is activated in WP.
+
+When creating a custom module for WKBakery Page Builder, instead of using ```attached_image``` as param type, use ```focus_image```.
 The following code is not a complete example, it just shows how to use the parameter.
 
 ```php
