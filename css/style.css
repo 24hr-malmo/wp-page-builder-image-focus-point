@@ -1,0 +1,86 @@
+.pbfi--focus-image--icon {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pbfi--focus-image--icon-remove {
+    color: #FF7877;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.pbfi--focus-image--icon-add {
+    color: #87D148;
+}
+
+.pbfi--focus-image--icon-set-focus {
+    color: rgb(70, 82, 155);
+}
+
+.pbfi--focus-image--icon-remove:before {
+    content: "\00d7";
+}
+
+
+.pbfi--focus-image--icon-add:before {
+    content: "+";
+}
+
+.pbfi--focus-image--icon-set-focus:before {
+    content: "F";
+}
+
+.pbfi--gallery-widget--add-images {
+    margin-top: 0;
+    display: block;
+    float: left;
+    height: 198px;
+    width: 198px;
+    background: #F5F5F5;
+    border: 1px solid #DFDFDF;
+    font-size: 0;
+    color: #F5F5F5;
+    position: relative;
+}
+
+.set-focus-button {
+    color: #5e5e5e;
+}
+
+.pbfi-gallery_widget_attached_images_list {
+    display: flex;
+}
+
+.pbfi-gallery_widget_attached_images_list li img {
+    height: 198px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pbfi-gallery_widget_attached_images_list li {
+    height: 198px;
+    width: auto;
+    position: relative;
+    display: flex;
+}
+
+.pbfi-focus-box {
+    padding-left: 9px;
+    position: absolute;
+    left: 100%;
+    width: 120px;
+}
+
+.pbfi--focus-visualizer {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 200, 81, .5);
+    border-radius: 100rem;
+    border: 2px solid rgb(0, 200, 81);
+    margin-left: -12px;
+    margin-top: -12px;
+}
